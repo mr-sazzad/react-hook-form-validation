@@ -9,3 +9,7 @@ FOR READ MAIN PART [VALIDATION PAGE ON REACT HOOK FORM](https://react-hook-form.
 #### `you will show errors after input fields end`
 
 #### `You will show all errors after grab the field by type -> AS LIKE AS {errors?.inputName?.type === "required" <small> error</small>}`
+
+#### `you can get help from classnames package`
+
+[classnames package link](https://www.npmjs.com/package/classnames)

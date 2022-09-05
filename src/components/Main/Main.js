@@ -1,6 +1,7 @@
 import {
   TextField
 } from "@mui/material";
+import classNames from "classnames";
 import React from "react";
 import { useForm } from "react-hook-form";
 
@@ -23,7 +24,7 @@ const Main = () => {
         <div className="w-full flex mb-5">
           <div className="mr-2 w-6/12">
             <TextField
-              className="w-full"
+              className={classNames("w-full", {"is-invalid": true})}
               id="outlined-basic"
               label="First Name"
               variant="outlined"
